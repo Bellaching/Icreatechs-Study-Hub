@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@800&family=Poppins:wght@200;200&display=swap'); /*Font-family*/
+
+*{
+    margin: 0;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*---------------Body----------*/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*---------------Headings----------*/
+h1{
+    margin: 20px;
+    border: solid 1px rgb(255, 253, 253);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.619);
+    border-radius: 10px;
+    color: rgb(2, 2, 139);
+
+}
+/*---------------Paragraph---------*/
+p{
+    margin: 10px;
+}
+/*---------------Unordered & Ordered List---------*/
+ul, ol{
+    margin: 20px;
+    width: 300px;
+}
+
+.ol b,
+.ul b{
+    color: blue;
+}
+
+/*---------------List----------*/
+
+li{
+    margin: 10px;
+}
+/*---------------Image----------*/
+img{
+    max-width: 300px;
+    margin: 20px;
+
+}
+/*---------------Anchor----------*/
+a {
+    margin: 20px;
+}
+/*---------------Table---------*/
+table{
+    border-collapse: collapse;
+    width: 800px;
+    height: 150px;
+    margin:  20px;
+   
+}
+
+.table {
+    color: blue;
+    font-size: 24px;
+
+}
+
+/*-------------Table heading and data----------*/
+td, th{
+    border: solid 1px;
+    padding-left: 5px;
+    
+}
+
+
+
+/*---------------Table row bg----------*/
+tr:nth-child(even){
+    background-color: rgb(238, 255, 0);
+}
+tr:nth-child(odd){
+    background-color: rgb(255, 166, 0);
+}
+
