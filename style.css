@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@800&family=Poppins:wght@200;200&display=swap'); /*Font-family*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-us,
+.Log-in ,
+.Survey {
+    margin: 20px;
+    border: solid 1px;
+    
+    padding: 20px;
+    border-radius: 10px;
+    border-color: rgb(212, 212, 215);
+    box-shadow: 0 0 1px rgba(101, 100, 100, 0.999);
+}
+
+.contact-us form,
+.Log-in form,
+.Survey form{
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+
+.contact-us h1,
+.Log-in h1,
+.Survey h1{
+    margin: 10px 0px 20px 0;
+    color: rgb(64, 104, 224);
+}
+
+.contact-us h2,
+.Log-in h2,
+.Survey h2{
+    margin: 20px 0px 20px 0;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-us label,
+.Log-in label,
+.Survey label{
+    margin: 10px 0px 2px 0;
+    font-weight: bold;
+}
+
+.contact-us input,
+.Log-in input,
+.Survey input{
+    padding: 10px;
+}
+
+.contact-us textarea,
+.Log-in textarea,
+.Survey textarea{
+    padding: 10px;
+}
+
+.button{
+    width: 8%;
+    margin: 10px 0px 2px 0;
+    background-color: #325A80;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.Survey input label{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
+
+
+
+
